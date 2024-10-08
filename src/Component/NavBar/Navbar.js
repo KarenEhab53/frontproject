@@ -3,7 +3,6 @@ import img2 from '../../images/search.png';
 import img3 from '../../images/globe.png';
 import img4 from '../../images/user.png';
 import img5 from '../../images/user (1).png';
-import img6 from '../../images/menu.png';
 import './navbar.css'
 import { FiMenu, FiX } from 'react-icons/fi';
 import { useState } from 'react';
@@ -22,7 +21,7 @@ function Navbar() {
                         <div className="container">
                             <div className="data">
                                 <img src={img1} alt='menu' />
-                                <select className="menu">
+                                <select className="menudata">
                                     <option>Menus</option>
                                     <option>option 2</option>
                                     <option>option 3</option>
