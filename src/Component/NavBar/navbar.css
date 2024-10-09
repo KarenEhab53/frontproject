@@ -62,7 +62,7 @@ nav {
     align-items: center;
 }
 
-.navbar .container_logo .container .menu,
+.navbar .container_logo .container .menudata,
 .container_login .data .menudata {
     border: none;
     font-size: var(--fs-4B);
@@ -183,9 +183,9 @@ nav {
     display: none;
 }
 
-@media(max-width:769px){
+@media(min-width:0){
     nav .navbar{
-        max-width: 768px;
+        max-width: 767px;
         display: flex;
         justify-content: space-between;
     }
@@ -199,22 +199,22 @@ nav {
         display: block;
     }
 }
-@media (min-width:770px){
+@media (min-width:768px){
     nav .navbar{
-        max-width: 1024px;
+        max-width: 992px;
 display: flex;
     }
     .navbar .container_logo .container {
         display: flex;
     }
     .navbar .container_login {
-        display: flex;
+        display: none;
     }
     .navbar .container_login .data{
         display: none;
     }
     .navbar .menu-icon {
-        display: none;
+        display: block;
     }
 }
 @media(min-width:1025px){
