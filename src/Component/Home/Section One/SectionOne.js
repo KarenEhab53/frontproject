@@ -1,5 +1,5 @@
-import img1 from '../../images/DropShiping.jpg';
-import img2 from '../../images/man-carries-cardboard-box.png';
+import img1 from '../../../images/DropShiping.jpg';
+import img2 from '../../../images/man-carries-cardboard-box.png';
 import './sectionone.css'
 function SectionOne() {
     return (

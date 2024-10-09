@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin: 20px;
     overflow: hidden;
 }
 .sectiontwo .container{
@@ -11,10 +11,11 @@
     justify-content: space-between;
     flex-direction: column;
     text-align:left;
-    
     }
+    
 .sectiontwo .container h1{
     font-weight: bold;
+    padding-left: 20px;
     
 }
 .sectiontwo .container .buttons{
@@ -32,7 +33,7 @@
 }
 
 
-@media screen and (min-width:350px){
+@media screen and (min-width:320px){
     .sectiontwo{
         max-width:433px ;
         margin: 0;
@@ -41,6 +42,7 @@
     width: 95%;
     justify-content: center;
     margin: 20px;
+    
   }
     .sectiontwo .container h1{
         font-size: 24px;
@@ -134,7 +136,7 @@
 @media screen and (min-width:1025px){
     .sectiontwo{
         max-width:2560px ;
-        margin: 20px;
+        
     }
     .sectiontwo .container{
         width: 95%;
